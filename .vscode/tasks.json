@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/DataverseAIRecordAssistant.sln",
+        "--configuration",
+        "Debug",
+        "/property:GenerateFullPaths=true"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "test web resources",
+      "command": "npm",
+      "type": "process",
+      "args": ["test"],
+      "problemMatcher": []
+    }
+  ]
+}
+

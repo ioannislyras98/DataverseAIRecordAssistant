@@ -1,0 +1,15 @@
+{
+  "name": "dataverse-ai-record-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tests and repository tooling for the Dataverse AI Record Assistant MVP.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/webresources/*.test.mjs",
+    "test:webresources": "node --test tests/webresources/*.test.mjs"
+  }
+}
+

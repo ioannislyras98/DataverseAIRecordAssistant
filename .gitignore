@@ -1,0 +1,37 @@
+# Build output
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+coverage/
+
+# IDE and user-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/*.user.json
+
+# Logs and diagnostics
+*.binlog
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.snk
+*.publishsettings
+
+# Power Platform local state and exported packages
+.pac/
+*.authprofile
+PluginRegistration*.xml
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
