@@ -6,11 +6,17 @@
 *.ps1 text eol=crlf
 
 *.js text eol=lf
+*.mjs text eol=lf
 *.json text eol=lf
 *.md text eol=lf
 *.svg text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
+
+.editorconfig text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
 
 *.png binary
 *.jpg binary
@@ -18,4 +24,3 @@
 *.gif binary
 *.snk binary
 *.pfx binary
-
