@@ -24,9 +24,9 @@
       },
       "Microsoft.PowerApps.MSBuild.Plugin": {
         "type": "Direct",
-        "requested": "[1.52.1, )",
-        "resolved": "1.52.1",
-        "contentHash": "/a+52c5veTU7h+wl+K6FU0AAOKn8dMvQ5IeUy23LDTpMtZq22vThWm31xEC8RNMgADAgl9l6tzBOZmxm9g7g0w=="
+        "requested": "[2.14.1, )",
+        "resolved": "2.14.1",
+        "contentHash": "uN0waOX39j3vPKN1r+pOq+KjtKVmsa7w/bgUQBEo5waiDZONcZmtvk0V/DBl3VetTLW813w6we745qYggDB0Mg=="
       },
       "Microsoft.Bcl.AsyncInterfaces": {
         "type": "Transitive",
